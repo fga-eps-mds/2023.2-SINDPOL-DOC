@@ -1,1 +1,30 @@
-site_name: My Docs
+site_name: SINDPOL
+
+repo_name: 2023.2-SINDPOL
+repo_url: https://github.com/fga-eps-mds/2023.2-SINDPOL-DOC
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    scheme: slate
+    primary: black
+    accent: white
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+
+extra_css:
+  - styles/styles.css
+
+nav:
+  - Início: index.md
+
+dev_addr: "0.0.0.0:8000"
