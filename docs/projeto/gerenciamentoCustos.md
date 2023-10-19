@@ -15,24 +15,30 @@ Também segundo o Glassdoor, temos o custo mensal de um desenvolvedor pleno (_Cp
 Com esses dados o custo hora _Ch_ do aluno pode ser calculado como:
 
 **Chm = Cd ÷ N = 4000 ÷ 160 = 25**
+
 **Che = Cp ÷ N = 8000 ÷ 160 = 50**
+
 *N sendo a quantidade de horas trabalhadas por semana x semanas no mês (considerando que um mês tenha 4 semanas)*
 
 Considerando o _Ch_ do aluno e que o estimado de trabalho semanal seja de 10 horas, temo que o custo semanal do aluno (_Cs_) é calculado como:
 
-**Cs = Chm x 10 = 25 x 10 = 250**
-**Cs = Che x 10 = 50 x 10 = 500**
+**Csm = Chm x 10 = 25 x 10 = 250**
+
+**Cse = Che x 10 = 50 x 10 = 500**
 
 Dividindo por 7 dias, temos o custo diário do aluno (_Cd_) calculado como:
 
-**Cd = Cs ÷ 7 = 250 ÷ 7 = 35,71**
-**Cd = Cs ÷ 7 = 500 ÷ 7 = 71,43**
+**Cdm = Cs ÷ 7 = 250 ÷ 7 = 35,71**
+
+**Cde = Cs ÷ 7 = 500 ÷ 7 = 71,43**
 
 E o custo total de cada aluno (_Ct_) estipulado para o período letivo de 2023.2 é calculado por:
 
-**Ct = Cd x D = 35,71 x 120 = 4285**
-**Ct = Cd x D = 71,43 x 120 = 8571,6**
-*D sendo o total de dias no semestre letivo
+**Ctm = Cd x D = 35,71 x 120 = 4285**
+
+**Cte = Cd x D = 71,43 x 120 = 8571,6**
+
+**D sendo o total de dias no semestre letivo**
 
 > \* Considerando o período letivo do semestre 2023/2 da UnB (25/08/2023 até 23/12/2023) como 120 dias.  
 
