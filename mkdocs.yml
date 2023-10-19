@@ -30,4 +30,5 @@ nav:
     - Visão de produto: produto/visao.md
   - Projeto: 
     - Documento de arquitetura: projeto/arquitetura.md
+    - Plano de Contribuição: projeto/contribuicao.md
 dev_addr: "0.0.0.0:8000"
