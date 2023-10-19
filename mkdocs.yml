@@ -33,4 +33,5 @@ nav:
     - Plano de comunicação: projeto/comunicacao.md
     - Plano de contribuição: projeto/contribuicao.md
     - Plano de custos: projeto/gerenciamentoCustos.md
+    - Estrutura Analítica do Projeto: projeto/eap.md 
 dev_addr: "0.0.0.0:8000"
