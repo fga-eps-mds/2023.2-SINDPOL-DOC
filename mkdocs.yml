@@ -32,5 +32,5 @@ nav:
     - Documento de arquitetura: projeto/arquitetura.md
     - Plano de comunicação: projeto/comunicacao.md
     - Plano de contribuição: projeto/contribuicao.md
-    - Plano de custos: gerenciamentoCustos.md
+    - Plano de custos: projeto/gerenciamentoCustos.md
 dev_addr: "0.0.0.0:8000"
