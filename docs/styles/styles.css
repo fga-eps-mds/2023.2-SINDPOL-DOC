@@ -14,12 +14,12 @@ p {
 }
 
 thead tr {
-    background: #d7323f !important;
-    color: white;
+    background: #000000a7 !important;
+    color: rgb(255, 255, 255);
 }
 
 tr:nth-child(odd) {
-    background: #f8f8f8;
+    background: #22252f;
 }
 
 td,
