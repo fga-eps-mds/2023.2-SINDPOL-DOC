@@ -18,10 +18,6 @@ thead tr {
     color: rgb(255, 255, 255);
 }
 
-tr:nth-child(odd) {
-    background: #22252f;
-}
-
 td,
 th {
     text-align: center !important;
