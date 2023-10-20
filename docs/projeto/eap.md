@@ -8,9 +8,11 @@ A EAP adota um formato de árvore hierárquica, em que as atividades se tornam m
 
 ## 2. Diagrama
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://miro.com/app/board/uXjVOMaaQ-g=/" allowfullscreen></iframe>
 
 ## 3. Histórico de Revisão
 
 | Data       | Versão | Modificação                     | Autor        |
 | :--------- | :----- | :------------------------------ | :----------- |
 | 19/10/2023 | 0.1    | Criação do documento.          | Mateus Maia |
+| 20/10/2023 | 0.2    | Adição do diagrama  .          | Mateus Maia |
