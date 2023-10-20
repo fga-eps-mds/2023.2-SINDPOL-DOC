@@ -28,6 +28,7 @@ nav:
   - Início: index.md
   - Produto: 
     - Visão de produto: produto/visao.md
+    - Documento de arquitetura: produto/arquitetura.md
   - Projeto: 
     - Análise de riscos: projeto/risco.md
     - Documento de arquitetura: projeto/arquitetura.md
