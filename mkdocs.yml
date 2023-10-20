@@ -29,9 +29,10 @@ nav:
   - Produto: 
     - Visão de produto: produto/visao.md
   - Projeto: 
+    - Análise de riscos: projeto/risco.md
     - Documento de arquitetura: projeto/arquitetura.md
     - Plano de comunicação: projeto/comunicacao.md
     - Plano de contribuição: projeto/contribuicao.md
-    - Plano de custos: projeto/gerenciamentoCustos.md
+    - Plano de custos: projeto/custos.md
     - Estrutura Analítica do Projeto: projeto/eap.md 
 dev_addr: "0.0.0.0:8000"

@@ -87,7 +87,7 @@ Segundo dados de 2021 da [cultura uol](https://cultura.uol.com.br/noticias/26097
 
 
 ## 3. Planilha de custos
-Para consolidação dos custos, utilizamos a planilha abaixo.
+Para acompanhar a consolidação dos cuscos e sua evolução no projeto ao longo das sprints [acesse a planilha](https://docs.google.com/spreadsheets/d/1NGDqhFQa5XDPp-3fmC6r5sc7z3ChM2rYw2H5mmErnWk/edit?usp=sharing).
 
 <iframe width="1200" height="600" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1NGDqhFQa5XDPp-3fmC6r5sc7z3ChM2rYw2H5mmErnWk/edit?usp=sharing"></iframe>
 
@@ -104,3 +104,4 @@ OI. **Internet fibra ótica: planos de internet banda larga**. Disponível em: <
 | Data       | Versão | Modificação | Autor |
 | :--------- | :----- | :---------- | :---- |
 | 18/10/2023 | 0.1    | Criação e estruturação do documento | Victor Amaral |
+| 19/10/2023 | 1.0    | Revisão de documento | Victor Amaral |
