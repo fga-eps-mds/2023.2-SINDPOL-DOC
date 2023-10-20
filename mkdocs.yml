@@ -30,7 +30,7 @@ nav:
       - Visão de produto: produto/visao.md
       - Documento de arquitetura: produto/arquitetura.md
       - Backlog: produto/backlog.md
-      - Guia de estilo:
+      - Prototipação:
         - Protótipo de alta fidelidade: produto/prototipo.md
         - Guia de estilo: produto/guia.md
   - Projeto:
