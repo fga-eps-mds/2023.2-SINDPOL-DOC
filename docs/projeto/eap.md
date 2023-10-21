@@ -8,8 +8,7 @@ A EAP adota um formato de árvore hierárquica, em que as atividades se tornam m
 
 ## 2. Diagrama
 
-<iframe width="800" height="432" src="https://miro.com/app/embed/uXjVOMaaQ-g=/?pres=1&frameId=3458764567470163609&embedId=987711060814" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
+![EAP](../assets/EAP.jpg)
 ## 3. Histórico de Revisão
 
 | Data       | Versão | Modificação                     | Autor        |
