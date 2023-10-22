@@ -1,3 +1,6 @@
+# Documento de Arquitetura
+<style>body {text-align: justify}</style>
+
 ## 1. Introdução
 
 Este Documento de Arquitetura de Software tem como objetivo fornecer uma descrição detalhada dos principais aspectos arquiteturais da solução de software do projeto SINDPOL. Ele documenta informações e decisões relevantes relacionadas à arquitetura do projeto ao longo de seu desenvolvimento.

@@ -1,4 +1,5 @@
 # Análise de riscos
+<style>body {text-align: justify}</style>
 
 ## 1. Introdução
 
@@ -17,27 +18,29 @@ Assim, a equipe elaborou uma EAR para visualizar a categorização dos riscos do
 ## 3. Métricas e análise quantitativa
 
 ## 3.1 Probabilidade
+
 A probabilidade indica a chance do risco acontecer.
 
-| Probabilidade         | Intervalo | Valor | 
-| --------------- | :---------: | :---: | 
-| **Nenhuma**        |     Não há chance de acontecer    |   0   | 
+| Probabilidade         | Intervalo | Valor |
+| --------------- | :---------: | :---: |
+| **Nenhuma**        |     Não há chance de acontecer    |   0   |
 | **Rara**        |      Menor que 20% de chance de ocorrer     |   1   |  
-| **Improvável**  |      Entre 21% e 40% de chance de ocorrer      |  2   |   
-| **Pouco provável**  |      Entre 41% e 60% de chance de ocorrer     |   3   |   
-| **Muito provável**        |      Entre 61% e 80% de chance de ocorrer     |   4  | 
+| **Improvável**  |      Entre 21% e 40% de chance de ocorrer      |  2   |
+| **Pouco provável**  |      Entre 41% e 60% de chance de ocorrer     |   3   |
+| **Muito provável**        |      Entre 61% e 80% de chance de ocorrer     |   4  |
 | **Quase certa**  |      Entre 81% e 100% de chance de ocorrer      |  5  |  
 
 ## 3.2 Impacto
+
 O impacto refere-se ao prejuízo que o risco gera ao projeto, se acontecer.
 
 | Impacto         | Descrição | Valor |
-| --------------- | :---------: | :---: | 
+| --------------- | :---------: | :---: |
 | **Nenhum** |      Nenhum impacto ao projeto    |   0   |  
 | **Muito pequeno** |      Quase sem impactos ao projeto      |   1   |  
-| **Pequeno**       |      Pequeno impacto ao projeto      |   2   |   
-| **Médio**       |     Representa algum impacto ao projeto      |   3   |   
-| **Alto**        |      Compromete o andamento do projeto     |   4   | 
+| **Pequeno**       |      Pequeno impacto ao projeto      |   2   |
+| **Médio**       |     Representa algum impacto ao projeto      |   3   |
+| **Alto**        |      Compromete o andamento do projeto     |   4   |
 | **Altíssimo**  |      Inviabiliza o andamento do projeto      |  5   |  
 
 ## 3.3 Matriz de probabilidade/impacto
@@ -52,16 +55,16 @@ A partir da multiplicação das métricas de probabilidade e impacto, chegamos n
 | **Alto**        |      4      |   8   |  12   |  16  |     20     |
 | **Muito Alto**  |      5      |  10   |  15   |  20  |     25     |
 
-## 3.4 Intervalo de nível de prioridade 
+## 3.4 Intervalo de nível de prioridade
 
 Dada a matriz de probabilidade/impacto define-se um nível de prioridade para os riscos determinando a urgência de medidas a serem tomadas para responder a estes.
 
-| Prioridade      |  Intervalo  | 
-| --------------- | :---------: | 
+| Prioridade      |  Intervalo  |
+| --------------- | :---------: |
 | **Muito Baixo** |    1 a 5    |  
-| **Baixo**       |    6 a 10   | 
-| **Média**       |   11 a 15   | 
-| **Alto**        |   16 a 20   |   
+| **Baixo**       |    6 a 10   |
+| **Média**       |   11 a 15   |
+| **Alto**        |   16 a 20   |
 | **Muito Alto**  |   21 a 25   |
 
 ## 3.5 Planejamento de resposta aos riscos
@@ -84,22 +87,22 @@ Para acompanhar os riscos identificados durante o projeto e sua evolução ao lo
 
 ## Referências
 
-Guia PMBOK 6a. ed. EUA: Project Management Institure, 2017. Disponível em: https://www.site.com. Acesso em: 19 out. 2023.
+Guia PMBOK 6a. ed. EUA: Project Management Institure, 2017. Disponível em: <https://www.site.com>. Acesso em: 19 out. 2023.
 
-Plano de Resposta ao Risco. Disponível em: https://www.cin.ufpe.br/~if717/Pmbok2000/pmbok_v2p/wsp_11.5.html#:~:text=O%20plano%20de%20resposta%20ao,acordo%20de%20resposta%20ao%20risco. Acesso em: 19 out. 2023.
+Plano de Resposta ao Risco. Disponível em: <https://www.cin.ufpe.br/~if717/Pmbok2000/pmbok_v2p/wsp_11.5.html#:~:text=O%20plano%20de%20resposta%20ao,acordo%20de%20resposta%20ao%20risco>. Acesso em: 19 out. 2023.
 
-PLANO de Resposta ao Risco. [S. l.: s. n.], 2010. Disponível em: http://moodle.stoa.usp.br/file.php/877/08_Monografia_Gerenciamento_Riscos.pdf. Acesso em: 19 out. 2023.
+PLANO de Resposta ao Risco. [S. l.: s. n.], 2010. Disponível em: <http://moodle.stoa.usp.br/file.php/877/08_Monografia_Gerenciamento_Riscos.pdf>. Acesso em: 19 out. 2023.
 
-EQUIPE ALECTRION 2022-2. Planejamento de Gerenciamento de Riscos. Disponível em: https://fga-eps-mds.github.io/2022-2-Alectrion-DOC/#/./Planejamento/riscos. Acesso em: 19 out. 2023.
+EQUIPE ALECTRION 2022-2. Planejamento de Gerenciamento de Riscos. Disponível em: <https://fga-eps-mds.github.io/2022-2-Alectrion-DOC/#/./Planejamento/riscos>. Acesso em: 19 out. 2023.
 
-Gerência de riscos em desenvolvimento de software. Disponível em: https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506. Acesso em: 19 out. 2023.
+Gerência de riscos em desenvolvimento de software. Disponível em: <https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506>. Acesso em: 19 out. 2023.
 
 RODRIGUES, Eli. EAR para projetos de software. Disponível em [https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/](https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/). Acesso em: 19 out. 2023.
-
 
 ## 4. Histórico de versão
 
 ## Histórico de Revisão
+
 | Data       | Versão | Modificação | Autor |
 | :--------- | :----- | :---------- | :---- |
 |18/10/2023| 0.1 | Criação do documento | Victor Amaral |

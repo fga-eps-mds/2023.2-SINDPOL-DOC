@@ -1,4 +1,5 @@
 # Estrutura Analítica do Projeto
+<style>body {text-align: justify}</style>
 
 ## 1. Introdução
 
@@ -9,6 +10,7 @@ A EAP adota um formato de árvore hierárquica, em que as atividades se tornam m
 ## 2. Diagrama
 
 ![EAP](../assets/EAP.jpg)
+
 ## 3. Histórico de Revisão
 
 | Data       | Versão | Modificação                     | Autor        |

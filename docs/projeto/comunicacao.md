@@ -1,3 +1,6 @@
+# Plano de Comunicação
+<style>body {text-align: justify}</style>
+
 ## 1. Introdução
 
 Este documento tem como finalidade descrever o processo de comunicação entre os integrantes do SINDPOL ao longo do semestre 2023-2, com o objetivo de assegurar uma colaboração efetiva em todos os estágios, desde a definição dos requisitos até a implementação do código, visando assim a criação da solução mais adequada para o desafio em questão.
