@@ -7,17 +7,10 @@ Um "quadro de conhecimento" é uma representação visual ou estruturada de info
 
 ## 2. EPS
 
-<iframe width="1200" height="600" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAoc3RFthsaOfvaQ8UBKS6Fn-zJp1PBlwgNwb49r2Ym0qGy8azYo6IP6RV6_HVEw/pubhtml?gid=1830544317&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width="1200" height="600" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1X7hxOSKayGnNiBAucd7eq4hVyigsGUwMcv5FWtJYZvE/edit?usp=sharing"></iframe>
 
-## 3. MDS
-
-<iframe width="1200" height="600" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAoc3RFthsaOfvaQ8UBKS6Fn-zJp1PBlwgNwb49r2Ym0qGy8azYo6IP6RV6_HVEw/pubhtml?gid=1830544317&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-## 4. Geral
-
-<iframe width="1200" height="600" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAoc3RFthsaOfvaQ8UBKS6Fn-zJp1PBlwgNwb49r2Ym0qGy8azYo6IP6RV6_HVEw/pubhtml?gid=1830544317&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-## 5. Histórico de Revisão
+## 3. Histórico de Revisão
 | Data       | Versão | Modificação                     | Autor        |
 | :--------- | :----- | :------------------------------ | :----------- |
-| 22/10/2023 | 0.1    | Criação do documento.          | Carlos Eduardo <br> Alexandre |
+| 22/10/2023 | 0.1    | Criação do documento.           | Carlos Eduardo <br> Alexandre |
+| 22/10/2023 | 1.0    | Revisão e adição do quadro.     | Victor Amaral |
