@@ -40,4 +40,8 @@ nav:
       - Plano de Custos: projeto/custos.md
       - Plano de Qualidade: projeto/qualidade.md
       - Estrutura Analítica do Projeto: projeto/eap.md
+      - Quadro de Conhecimento: projeto/quadroconhecimento.md
+      - Quadro de Calor: projeto/quadrocalor.md
+      
 dev_addr: "0.0.0.0:8000"
+ 

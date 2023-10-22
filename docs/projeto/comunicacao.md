@@ -74,14 +74,8 @@ Para facilitar a comunicação entre os membros, as seguintes ferramentas serão
 
 O quadro de calor tem como objetivo mostrar a quantidade de membros disponíveis para possíveis participações no projeto.
 
-### Quadro de calor geral
-![Quadro de calor da Equipe](../assets/quadro_calor_geral.png)
+[clique aqui](quadrocalor.md) para acessar o quadro de calor da equipe.
 
-### Quadro de calor de EPS
-![Quadro de calor de EPS](../assets/quadro_calor_eps.png)
-
-### Quadro de calor de MDS
-![Quadro de calor de MDS](../assets/quadro_calor_mds.png)
 
 Cada número representa a quantidade de pessoas disponíveis no respectivo horário, quanto mais próximo do verde, mais pessoas disponíveis.
 
