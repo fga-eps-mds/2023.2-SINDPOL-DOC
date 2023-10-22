@@ -28,7 +28,6 @@ nav:
   - Início: index.md
   - Produto:
       - Visão de produto: produto/visao.md
-      - Documento de arquitetura: produto/arquitetura.md
       - Backlog: produto/backlog.md
       - Prototipação:
         - Protótipo de alta fidelidade: produto/prototipo.md
