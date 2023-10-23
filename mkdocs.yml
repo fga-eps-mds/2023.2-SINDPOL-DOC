@@ -33,11 +33,11 @@ nav:
         - Protótipo de Alta Fidelidade: produto/prototipo.md
         - Guia de Estilo: produto/guia.md
   - Projeto:
-      - Análise de Riscos: projeto/risco.md
       - Documento de Arquitetura: projeto/arquitetura.md
       - Plano de Comunicação: projeto/comunicacao.md
       - Plano de Contribuição: projeto/contribuicao.md
       - Plano de Custos: projeto/custos.md
+      - Análise de Riscos: projeto/risco.md
       - Plano de Qualidade: projeto/qualidade.md
       - Estrutura Analítica do Projeto: projeto/eap.md
       - Quadro de Conhecimento: projeto/quadroconhecimento.md
