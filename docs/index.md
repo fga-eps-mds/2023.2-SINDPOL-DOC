@@ -1,8 +1,10 @@
-# SINDPOL
+# SG_SINDPOL
 
-Adicionar descrição SINDPOL.
+O projeto de Plataforma SG_SINDPOL tem por objetivo auxiliar os Sindicados e Sindicalizados na gerência de produtos (Benefícios, Patromônios, processos juridicos e etc.) relacionados ao Sindicato da Polícia. O projeto consiste em facilitar o uso desses benefícios por parte do sindicalizado e a gerência desses benefícios e pessoas por parte do Sindicado.
 
 ## Equipe
+
+A equipe é composta por 15 estudantes da Engenharia de Software a fim de contribuir na documentação, além de resolver bugs e incrementar o projeto com novas funcionalidades. A seguir são apresentados os estudantes da Engenharia de Software e suas respectivas disciplinas.
 
 ### Integrantes de EPS
 
@@ -73,17 +75,6 @@ Adicionar descrição SINDPOL.
                 height="400"
             />
             <h5 class="text-center">Victor Gonçalves</h5>
-        </a>       
-    </div>
-    <div>
-        <a href="https://github.com/AntonioIgorCarvalho">
-            <img
-                style="border-radius: 50%;"
-                src="https://avatars.githubusercontent.com/u/78360676?v=4"
-                width="400"
-                height="400"
-            />
-            <h5 class="text-center">Antonio Igor</h5>
         </a>       
     </div>
     <div>
