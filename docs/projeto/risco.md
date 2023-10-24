@@ -13,7 +13,7 @@ A EAR (Estrutura Analítica de Riscos) fornece uma estrutura de identificação 
 
 Assim, a equipe elaborou uma EAR para visualizar a categorização dos riscos do projeto SINDPOL.
 
-<iframe src="https://miro.com/app/live-embed/uXjVNYFcXqg=/?moveToViewport=-768,-373,1536,744&embedId=635581029201" scrolling="no" allowfullscreen style="width: 100%; height: 500px" frameborder="0"></iframe>
+<iframe src="https://miro.com/app/live-embed/uXjVNWsXlXs=/?moveToViewport=-595,-246,1218,552&embedId=587285459613" scrolling="no" allowfullscreen style="width: 100%; height: 500px" frameborder="0"></iframe>
 
 ## 3. Métricas e análise quantitativa
 
