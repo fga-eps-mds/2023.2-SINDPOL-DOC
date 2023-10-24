@@ -14,6 +14,8 @@ Além disso, ao seguir o guia de estilo, a equipe de desenvolvimento pode trabal
 
 Para saber mais sobre as diretrizes de estilo, consulte o [Guia de estilo](guia.md).
 
+Para acessar o protótipo de alta fidelidade navegável [clique aqui](https://www.figma.com/proto/8gIW1AmAtSPj6XSkKPHvA1/Protótipo-de-Alta-Fidelidade?type=design&node-id=49-2307&t=tSbJMQK0Fv3tphFH-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=49%3A2307&show-proto-sidebar=1).
+
 ### 2.1 Login 
 
 ![Tela de login](../assets/prototipo/login.png)
