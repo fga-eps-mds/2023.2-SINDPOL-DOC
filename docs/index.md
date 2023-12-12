@@ -4,7 +4,7 @@ O projeto de Plataforma SG_SINDPOL tem por objetivo auxiliar os Sindicados e Sin
 
 ## Equipe
 
-A equipe é composta por 15 estudantes da Engenharia de Software a fim de contribuir na documentação, além de resolver bugs e incrementar o projeto com novas funcionalidades. A seguir são apresentados os estudantes da Engenharia de Software e suas respectivas disciplinas.
+A equipe é composta por 11 estudantes da Engenharia de Software a fim de contribuir na documentação, além de resolver bugs e incrementar o projeto com novas funcionalidades. A seguir são apresentados os estudantes da Engenharia de Software e suas respectivas disciplinas.
 
 ### Integrantes de EPS
 
@@ -64,17 +64,6 @@ A equipe é composta por 15 estudantes da Engenharia de Software a fim de contri
                 height="400"
             />
             <h5 class="text-center">Victor Lima</h5>
-        </a>       
-    </div>
-    <div>
-        <a href="https://github.com/VictorJorgeFGA">
-            <img
-                style="border-radius: 50%;"
-                src="https://avatars.githubusercontent.com/u/43304761?v=4"
-                width="400"
-                height="400"
-            />
-            <h5 class="text-center">Victor Gonçalves</h5>
         </a>       
     </div>
     <div>
@@ -139,28 +128,6 @@ A equipe é composta por 15 estudantes da Engenharia de Software a fim de contri
                 height="400"
             />
             <h5 class="text-center">Eduardo</h5>
-        </a>       
-    </div>
-    <div>
-        <a href="https://github.com/henryqma">
-            <img
-                style="border-radius: 50%;"
-                src="https://avatars.githubusercontent.com/u/102759084?v=4"
-                width="400"
-                height="400"
-            />
-            <h5 class="text-center">Henrique Alencar</h5>
-        </a>       
-    </div>
-    <div>
-        <a href="https://github.com/victorcamaraa">
-            <img
-                style="border-radius: 50%;"
-                src="https://avatars.githubusercontent.com/u/143553798?v=4"
-                width="400"
-                height="400"
-            />
-            <h5 class="text-center">Victor Camara</h5>
         </a>       
     </div>
     <div>
