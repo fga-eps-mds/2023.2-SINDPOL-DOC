@@ -79,7 +79,7 @@ Docker Compose é uma ferramenta que permite a definição e execução de aplic
 
 Devido a implementação de novas funcionalidades e principalmente após a implementação de perfis de usuário, tivemos refatorações nas tabelas do banco de dados, resultando na seguinte modelagem:
 
-![visao dos dados](../assets/visao_dados.jpeg)
+![visao dos dados](../assets/visao_dados.jpg)
 
 ## 6. Referências
 
@@ -100,6 +100,7 @@ Devido a implementação de novas funcionalidades e principalmente após a imple
 | :--------- | :----- | :-------------------------------------------- | :------------------------- |
 | 19/10/2023 | 0.1    | Abertura do documento.                        | Mateus Cunha Maia              |
 | 22/10/2023 | 0.1    | Adição do diagrama de dados                        | Mateus Cunha Maia              |
+| 11/12/2023 | 0.1    | Atualização do diagrama de dados                        | Eduardo Belarmino Silva              |
 
 
 
