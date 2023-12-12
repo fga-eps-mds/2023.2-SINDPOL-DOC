@@ -22,7 +22,7 @@ Para acessar o protótipo de alta fidelidade navegável [clique aqui](https://ww
 
 ### 2.2 Formulário de filiação
 
-![Tela de formulário de filiação](../assets/prototipo/formulario_filiacao.png)
+![Tela de formulário de filiação](../assets/prototipo/Formulario_de_filiacao.png)
 
 ### 2.3 Recuperação de senha
 
@@ -60,32 +60,49 @@ Para acessar o protótipo de alta fidelidade navegável [clique aqui](https://ww
 
 ![Tela de listar sindicalizados](../assets/prototipo/listar_sindicalizados.png)
 
-### 2.9 Cadastrar sindicalizado
+### 2.9 Aceitar sindicalizado
+
+![Tela de aceitar sindicalizado](../assets/prototipo/aprovar_cadastro.png)
+
+### 2.10 Cadastrar sindicalizado
 
 ![Tela de cadastrar sindicalizado](../assets/prototipo/cadastro_sindicalizado.png)
 
-### 2.10 Listar patrimônios
+### 2.11 Cadastrar Pensionista 
+
+![Tela de cadastrar Pensionista](../assets/prototipo/formulario_de_pensionista.png)
+
+### 2.12 Listar patrimônios
 
 ![Tela de listar patrimônios](../assets/prototipo/listar_patrimonios.png)
 
-### 2.11 Cadastrar patrimônio
+### 2.13 Cadastrar patrimônio
 
 ![Tela de cadastrar patrimônio](../assets/prototipo/cadastro_patrimonio.png)
 
-### 2.12 Visualizar/editar patrimônio
+### 2.14 Cadastrar patrimônio doação
+
+![Tela de cadastrar patrimônio doação](../assets/prototipo/edicao_de_patrimonio_doacao.png)
+
+### 2.15 Visualizar/editar patrimônio
 
 ![Tela de visualizar/editar patrimônio](../assets/prototipo/visualizar_patrimonio.png)
 
-### 2.13 Listar relatórios
+### 2.16 Listar relatórios
 
 ![Tela de listar relatórios](../assets/prototipo/listar_relatorios.png)
 
-### 2.14 Emitir relatório
+### 2.17 Emitir relatório
 
 ![Tela de emitir relatório](../assets/prototipo/emitir_relatorio.png)
+
+### 2.18 Formulário de desfiliação
+
+![Tela de formulário desfiliação](../assets/prototipo/forulario_desfiliacao.png)
 
 ## 3. Histórico de Revisão
 
 | Data       | Versão |      Modificação      |    Autor     |
 | :--------- | :----- | :-------------------- | :----------- |
 |19/10/2023| 0.1 | Criação do documento | Mateus Moreira  |
+|11/12/2023| 1.0 | Atalização dos protótipos | Carlos Eduardo  |
