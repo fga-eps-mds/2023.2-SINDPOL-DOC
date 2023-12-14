@@ -107,7 +107,7 @@ Risco de trabalho não concluído
 
 Provas de outras matérias 
 
-### 4.2 Efrentados:
+### 4.2 Enfrentados:
 
 Falta de conhecimento da equipe com as tecnologias
 
