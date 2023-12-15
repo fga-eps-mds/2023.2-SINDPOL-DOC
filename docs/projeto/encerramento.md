@@ -123,7 +123,7 @@ Trabalho não concluído
 
 Provas de outras matérias 
 
-Afastamento do professor por motivos de saúdeV
+Afastamento do professor por motivos de saúde
 
 ## 5 Agradecimentos
 
