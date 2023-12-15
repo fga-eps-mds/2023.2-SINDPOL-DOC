@@ -1,0 +1,1307 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../risco/">
+      
+      
+        <link rel="next" href="../eap/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Plano de Qualidade - SINDPOL</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../styles/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="white">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#plano-de-qualidade-do-produto" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="SINDPOL" class="md-header__button md-logo" aria-label="SINDPOL" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SINDPOL
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Plano de Qualidade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fga-eps-mds/2023.2-SINDPOL-DOC" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.2-SINDPOL
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../produto/visao/" class="md-tabs__link">
+          
+  
+  Produto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../arquitetura/" class="md-tabs__link">
+          
+  
+  Projeto
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SINDPOL" class="md-nav__button md-logo" aria-label="SINDPOL" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    SINDPOL
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fga-eps-mds/2023.2-SINDPOL-DOC" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.2-SINDPOL
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Produto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Produto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/visao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão de Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Prototipação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Prototipação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/prototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/guia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Estilo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comunicacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Comunicação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contribuicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Contribuição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Custos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../risco/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Análise de Riscos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Plano de Qualidade
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Plano de Qualidade
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-objetivos-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Objetivos de qualidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-verificacao-e-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Verificação e validação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-padroes-praticas-convencoes-e-metricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Padrões, práticas, convenções e métricas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Padrões, práticas, convenções e métricas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#isos-e-modelos-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      ISOs e modelos de qualidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metricas-para-o-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métricas para o produto
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-testes" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Testes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-ferramentas" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Ferramentas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-controle-de-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Controle de código
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-historico-de-revisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Histórico de Revisão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estrutura Analítica do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quadroconhecimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Conhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quadrocalor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Calor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../encerramento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Encerramento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-objetivos-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Objetivos de qualidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-verificacao-e-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Verificação e validação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-padroes-praticas-convencoes-e-metricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Padrões, práticas, convenções e métricas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Padrões, práticas, convenções e métricas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#isos-e-modelos-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      ISOs e modelos de qualidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metricas-para-o-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métricas para o produto
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-testes" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Testes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-ferramentas" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Ferramentas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-controle-de-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Controle de código
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-historico-de-revisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Histórico de Revisão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="plano-de-qualidade-do-produto">Plano de Qualidade do Produto</h1>
+<style>body {text-align: justify}</style>
+
+<h2 id="1-introducao">1. Introdução</h2>
+<p>A ISO 25010, disponibilizada em 2011, que padroniza a qualidade de produtos de software e surgiu em substituição a ISO9126, define qualidade como  o nível em que um sistema atende às necessidades expressas e não expressas dos stakeholders, resultando em geração de valor.</p>
+<p>Esta ISO25010 define 8 características para a qualidade, sendo elas: adequação funcional, eficiência de desempenho, compatibilidade, usabilidade, confiabilidade, segurança, manutenção e portabilidade.</p>
+<h2 id="2-objetivo">2. Objetivo</h2>
+<p>O objetivo da elaboração deste plano de qualidade é especificar as ferramentas que serão utilizadas e as métricas analisadas pela equipe para que seja definida a qualidade do produto e tomadas decisões. Assim, os objetivos deste documento são:</p>
+<ul>
+<li>
+<p>Definir os objetivos de qualidades.</p>
+</li>
+<li>
+<p>Apresentar formas de atingir os objetivos de qualidade.</p>
+</li>
+<li>
+<p>Selecionar e coletar métricas</p>
+</li>
+<li>
+<p>Apresentar a interpretação e uso das métricas para o produto.</p>
+</li>
+<li>
+<p>Especificar procedimentos, técnicas e ferramentas</p>
+</li>
+</ul>
+<h2 id="3-objetivos-de-qualidade">3. Objetivos de qualidade</h2>
+<p>No contexto dos objetivos definidos pela norma ISO 25010:2011, a análise de qualidade do projeto se concentra em três áreas principais: qualidade interna, qualidade externa e qualidade de uso.</p>
+<p>A qualidade interna e externa visa avaliar o produto em si e está centrada em seis características principais: funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e portabilidade. Cada uma dessas características abrange diversas subcaracterísticas. Essas subcaracterísticas são observáveis externamente quando o software é utilizado e são influenciadas pelos atributos internos do produto.</p>
+<p>Por sua vez, a qualidade de uso se concentra em quatro características principais: eficácia, produtividade, segurança e satisfação. Essas características são derivadas da combinação das seis características de qualidade (interna e externa) previamente definidas pela norma ISO.</p>
+<p>A análise de qualidade do projeto aborda tanto os aspectos internos quanto os externos do software, levando em consideração as seis características de qualidade. Avalia também a experiência do usuário final por meio das quatro características específicas de qualidade de uso. Ao adotar essas abordagens complementares, busca-se realizar uma avaliação abrangente da qualidade do produto em diferentes perspectivas.</p>
+<h2 id="4-verificacao-e-validacao">4. Verificação e validação</h2>
+<p>Para alcançar os objetivos de qualidade do projeto, foram adotadas três técnicas de verificação e validação:</p>
+<ul>
+<li>
+<p>Análise estática do código: Essa técnica utiliza o Sonar Cloud como ferramenta de análise estática de código, para obter métricas mensuráveis. Essa ferramenta identifica potenciais problemas no código e fornece informações relevantes para a gestão da qualidade do projeto, que colabora para a tomada de decisões e pontos a serem atacados pela equipe.</p>
+</li>
+<li>
+<p>Testes automatizados: Foram realizados testes automatizados, incluindo testes unitários e de integração. Essa abordagem permite validar tanto os cenários esperados quanto situações de erro, garantindo o funcionamento adequado do software em diversas condições.</p>
+</li>
+<li>
+<p>Validações com os POs do projeto: Além das técnicas baseadas em código, é essencial envolver os donos ou usuários do projeto na validação. Reuniões semanais foram realizadas para validar o progresso e obter feedback. </p>
+</li>
+</ul>
+<p>Essas três técnicas combinadas permitem abordar tanto aspectos técnicos, por meio da análise estática e dos testes automatizados, quanto considerações mais amplas, ao envolver os stakeholders do projeto. Dessa forma, busca-se garantir a qualidade do projeto de forma abrangente e satisfatória.</p>
+<h2 id="5-padroes-praticas-convencoes-e-metricas">5. Padrões, práticas, convenções e métricas</h2>
+<h3 id="isos-e-modelos-de-qualidade">ISOs e modelos de qualidade</h3>
+<p>A principal ISO e modelo utilizados no projeto são:
+- NBR - ISO/IEC 25010
+- Modelo de Qualidade Q-Rapids</p>
+<h3 id="metricas-para-o-produto">Métricas para o produto</h3>
+<p>Através do uso de métricas, é possível identificar as subcaracterísticas relacionadas e, por consequência, avaliar a qualidade do produto. Essa avaliação também permite analisar a produtividade do projeto e obter resultados que podem influenciar as decisões tomadas em relação ao seu desenvolvimento.</p>
+<p>As métricas definidas para o SINDPOL foram:</p>
+<table>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Functions</td>
+<td>Quantidade de funções no código</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>Complexidade ciclomática</td>
+</tr>
+<tr>
+<td>Comment Lines Density</td>
+<td>Densidade (%) de linhas comentadas</td>
+</tr>
+<tr>
+<td>Duplicated Lines density</td>
+<td>Densidade (%) de linhas duplicadas</td>
+</tr>
+<tr>
+<td>Coverage</td>
+<td>Cobertura de código pelos testes</td>
+</tr>
+<tr>
+<td>Ncloc</td>
+<td>Quantidade de linhas de código</td>
+</tr>
+<tr>
+<td>Tests</td>
+<td>Testes unitários e de integração</td>
+</tr>
+<tr>
+<td>Test Errors</td>
+<td>Testes que possuem erros</td>
+</tr>
+<tr>
+<td>Test Failures</td>
+<td>Testes que falharam</td>
+</tr>
+<tr>
+<td>Test Execution Time</td>
+<td>Tempo de execução dos testes</td>
+</tr>
+<tr>
+<td>Security Rating</td>
+<td>Avaliação de segurança de falhas e vulnerabilidades</td>
+</tr>
+<tr>
+<td>User Satisfaction</td>
+<td>Índice de satisfação do usuário com o produto</td>
+</tr>
+</tbody>
+</table>
+<p>A partir das métricas especificadas no SonarCloud e dos valores coletados pelas métricas definidas, foram estabelecidos valores mínimos aceitáveis para cada métrica no projeto conforme tabela abaixo.</p>
+<table>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Complexity</td>
+<td>até 10</td>
+</tr>
+<tr>
+<td>Comment Lines Density (%)</td>
+<td>até 30%</td>
+</tr>
+<tr>
+<td>Duplicated Lines Density (%)</td>
+<td>até 5%</td>
+</tr>
+<tr>
+<td>Coverage</td>
+<td>acima de 80%</td>
+</tr>
+<tr>
+<td>Test Failures</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Test Errors</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Security Rating</td>
+<td>0 (A)</td>
+</tr>
+<tr>
+<td>Satisfação do usuário</td>
+<td>acima de 3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-testes">6. Testes</h2>
+<p>O software é uma das construções mais complexas dos humanos por isto está sujeito a inconsistências e erros. O conjunto de processos para validar o correto funcionamento de um software são chamados testes e as atividades de teste surgiram justamente para evitar que estes erros cheguem ao usuário final.</p>
+<ul>
+<li>
+<p>Testes de unidade: a maior parte dos testes se encontram nesta categorização e são utilizados para verificar pequenas partes de um código, normalmente uma classe somente.</p>
+</li>
+<li>
+<p>Testes de integração: estes testes verificam uma transação completa ou uma funcionalidade</p>
+</li>
+<li>
+<p>Testes de sistema: testes que simulam uma sessão com usuário real</p>
+</li>
+</ul>
+<h2 id="7-ferramentas">7. Ferramentas</h2>
+<p><a href="https://www.sonarsource.com/products/sonarcloud/?gads_campaign=SC-Class01-Brand&amp;gads_ad_group=SonarCloud&amp;gads_keyword=sonarcloud&amp;gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW_ldned9rPbZ6BecorNDUxvGxjLbdoawwMROpUJnpr5qGlKr3oBOh0aAnZlEALw_wcB">SonarCloud</a>: Ferramenta de varredura de código para analisar o código de acordo com as regras e métricas definidas.</p>
+<h2 id="8-controle-de-codigo">8. Controle de código</h2>
+<p>A fim de assegurar a execução de procedimentos de qualidade, utilizamos uma combinação de tarefas automatizadas e manuais. </p>
+<p>As tarefas automatizadas incluem: documentação, controle de versão, controle de código, controle de commits, testes automatizados. Essas tarefas são realizadas por ferramentas e sistemas que auxiliam na garantia da qualidade do software.</p>
+<h2 id="9-referencias">9. Referências</h2>
+<p>ENGSOFTMODERNA. Engenharia de Software Moderna. Disponível em: https://engsoftmoderna.info/. Acesso em: 22 de Out. 2023.</p>
+<p>Importância dos testes de software na qualidade do sistema. TreinaWeb. Disponível em: https://www.treinaweb.com.br/blog/importancia-dos-testes-de-software-na-qualidade-do-sistema. Acesso em: 22 de Out. 2023.</p>
+<p>ISO/IEC 25010. ISO 25000. Software and data quality. 2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 22 de Out. 2023.</p>
+<p>Quality-aware Rapid Software Development Project: The Q-Rapids Project. FRANCH X.; LOPEZ L.; FERNÁNDEZ S. M.; ORIOL M.; RODRÍGUEZ P.; TRENDOWICZ A. Acesso em: 22 de Out. 2023.</p>
+<h2 id="5-historico-de-revisao">5. Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Data</th>
+<th style="text-align: left;">Versão</th>
+<th style="text-align: left;">Modificação</th>
+<th style="text-align: left;">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">22/10/2023</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Criação do documento</td>
+<td style="text-align: left;">Victor Amaral</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.path"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
